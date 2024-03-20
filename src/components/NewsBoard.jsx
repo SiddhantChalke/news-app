@@ -21,7 +21,7 @@ const NewsBoard = ({category}) => {
     },[category])
 
   return (
-    <div>
+    <div className='flex flex-wrap justify-around'>
         {
         articles.map((news, i)=>{
             return <NewsCard key={i} news={news} />
