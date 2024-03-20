@@ -3,7 +3,7 @@ import NewsBoard from './components/NewsBoard'
 
 const Home = ({category}) => {
   return (
-    <div className='scroll-smooth'>
+    <div className='scroll-smooth overflowX-hidden '>
       {
       category=='general'?
         <h2 className='text-stone-700 text-2xl m-4'>Top Headlines</h2>

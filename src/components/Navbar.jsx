@@ -5,7 +5,7 @@ export default function Navbar({ setCategory }) {
   // const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className='h-16 px-2 z-10 flex items-center justify-between w-full shadow-lg'>
+    <header className='h-16 pl-2 z-10 flex items-center justify-between w-full shadow-lg sticky'>
       <h1 className='text-3xl'>News App</h1>
 
       <nav className='w-3/4 flex justify-evenly uppercase'>

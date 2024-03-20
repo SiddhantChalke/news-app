@@ -21,7 +21,7 @@ const NewsBoard = ({category}) => {
     },[category])
 
   return (
-    <div className='flex flex-wrap justify-around'>
+    <div className='w-full py-2 px-4 flex flex-wrap justify-around gap-8'>
         {
         articles.map((news, i)=>{
             return <NewsCard key={i} news={news} />
