@@ -10,11 +10,11 @@ export default function Navbar({ setCategory }) {
 
       <nav className='w-3/4 flex justify-evenly uppercase'>
         {/* Links */}
-        <div className="cursor-pointer text-stone-700 hover:scale-110" onClick={() => setCategory('general')}>Home</div>
-        <div className="link" onClick={() => setCategory('sports')}>Sports</div>
-        <div className="link" onClick={() => setCategory('technology')}>Technology</div>
-        <div className="link" onClick={() => setCategory('health')}>Health</div>
-        <div className="link" onClick={() => setCategory('business')}>Business</div>
+        <div className="cursor-pointer text-stone-700 font-normal hover:font-semibold" onClick={() => setCategory('general')}>Home</div>
+        <div className="cursor-pointer text-stone-700 font-normal hover:font-semibold" onClick={() => setCategory('sports')}>Sports</div>
+        <div className="cursor-pointer text-stone-700 font-normal hover:font-semibold" onClick={() => setCategory('technology')}>Technology</div>
+        <div className="cursor-pointer text-stone-700 font-normal hover:font-semibold" onClick={() => setCategory('health')}>Health</div>
+        <div className="cursor-pointer text-stone-700 font-normal hover:font-semibold" onClick={() => setCategory('business')}>Business</div>
         {/* Search bar */}
         <div className="relative ">
           <div className="absolute pointer-events-none ">
