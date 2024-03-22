@@ -10,7 +10,7 @@ export default {
         '3/10': '30%',
       },
       screens:{
-        'xs': '480px'
+        'xs': '425px'
       }
     },
   },
